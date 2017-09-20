@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div>
-        <footer className="page-footer transparent remove-padding">
+      <div className="footer">
+        <footer className="page-footer transparent">
           <div className="footer-copyright">
-            <div className="container">© 2014 Copyright Text</div>
+            <div className="container">© Nathan Hamilton 2017</div>
           </div>
         </footer>
       </div>
