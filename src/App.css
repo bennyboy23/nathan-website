@@ -6,9 +6,9 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-.twitterContainer{
-  top: 50%;
-  left: 50%;
+
+.remove-padding{
+  padding: 0 !important;
 }
 .navbar-fixed {
   position: fixed;
