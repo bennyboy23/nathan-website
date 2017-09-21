@@ -1,0 +1,37 @@
+[debug] [2017-09-21T23:02:57.560Z] ----------------------------------------------------------------------
+[debug] [2017-09-21T23:02:57.564Z] Command:       /usr/local/Cellar/node/8.5.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-21T23:02:57.564Z] CLI Version:   3.12.0
+[debug] [2017-09-21T23:02:57.564Z] Platform:      darwin
+[debug] [2017-09-21T23:02:57.564Z] Node Version:  v8.5.0
+[debug] [2017-09-21T23:02:57.565Z] Time:          Fri Sep 22 2017 00:02:57 GMT+0100 (BST)
+[debug] [2017-09-21T23:02:57.565Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-21T23:02:57.581Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-21T23:02:57.582Z] > authorizing via signed-in user
+[debug] [2017-09-21T23:02:57.585Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nathan-website-5f4f8  
+ Fri Sep 22 2017 00:02:57 GMT+0100 (BST)
+[debug] [2017-09-21T23:02:58.261Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T23:02:58.262Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nathan-website-5f4f8/tokens  
+ Fri Sep 22 2017 00:02:58 GMT+0100 (BST)
+[debug] [2017-09-21T23:02:58.875Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'nathan-website-5f4f8'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing build directory for upload...
+[debug] [2017-09-21T23:03:00.412Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/nathan-website-5f4f8/uploads/-KuafWI3ugYrwB5Zwjae?fileCount=21&message=  
+ Fri Sep 22 2017 00:03:00 GMT+0100 (BST)
+[debug] [2017-09-21T23:03:08.384Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T23:03:08.384Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[info] ✔  hosting: 21 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] [2017-09-21T23:03:19.652Z] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/nathan-website-5f4f8/releases { database: { rulesString: '{\n  "rules": {\n    ".read": "auth != null",\n    ".write": "auth != null"\n  }\n}' },
+  hosting: 
+   { public: 'build',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     rewrites: [ [Object] ],
+     version: '-KuafWI3ugYrwB5Zwjae',
+     prefix: '-KuafWI3ugYrwB5Zwjae/',
+     manifest: [] } } 
+ Fri Sep 22 2017 00:03:19 GMT+0100 (BST)

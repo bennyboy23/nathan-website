@@ -10,6 +10,8 @@ import Header from './Header';
 import Twitter from './Twitter';
 import Footer from './Footer';
 import Showreel from './Showreel';
+import Gallery from './Gallery';
+import Contact from './Contact';
 
 class App extends Component {
 	render() {
@@ -21,6 +23,8 @@ class App extends Component {
 						<Route exact path="/" component={Landing} />
 						<Route exact path="/twitter" component={Twitter} />
 						<Route exact path="/showreel" component={Showreel} />
+						<Route exact path="/gallery" component={Gallery}/>
+						<Route exact path="/contact" component={Contact}/>
 					</div>
 				</BrowserRouter>
 				<Footer />

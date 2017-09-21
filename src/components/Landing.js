@@ -5,7 +5,6 @@ class Landing extends Component {
         return (
             <div className="center-align white-text">
                 <h2>Nathan Hamilton</h2>
-                <h4> Sound Designer</h4>
             </div>
         );
     }
