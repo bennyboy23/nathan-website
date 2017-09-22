@@ -9,7 +9,7 @@ class Footer extends Component {
 						<div className="container">
 							© Nathan Hamilton 2017	
 						</div>
-            <div className="container">
+            <div className="container" >
             <Mention username="NathanMakesNoise" />
           </div>          
           </div>

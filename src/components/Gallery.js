@@ -9,7 +9,7 @@ class Gallery extends Component {
 
 	render() {
 		return (
-			<div className="row">
+			<div>
 				<div className="fullscreen slider">
 					<ul className="slides">
 						<li>

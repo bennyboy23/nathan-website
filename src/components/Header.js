@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-
+import nathan from '../nathan.jpg';
 class Header extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar-fixed transparent z-depth-0">
+				<nav className="navbar-fixed transparent z-depth-1">
 					<div className="nav-wrapper container">
 						<a href="/" className="brand-logo">
-							NH
+							<img src={nathan} className="circle responsive-img"/>
 						</a>
 						<ul className="right nav-content">
 							<li>

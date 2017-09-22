@@ -16,7 +16,7 @@ import Contact from './Contact';
 class App extends Component {
 	render() {
 		return (
-			<div style={background}>
+			<div style={background} className="blue">
 				<Header />
 				<BrowserRouter>
 					<div className="container">
@@ -34,11 +34,8 @@ class App extends Component {
 }
 
 const background = {
-	backgroundImage: 'url(' + bgImage + ')',
 	height: '100%',
 	width: '100%',
-	backgroundRepeat: 'no-repeat',
-	backgroundSize: 'cover',
 };
 
 export default App;
