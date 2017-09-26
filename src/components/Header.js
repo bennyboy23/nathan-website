@@ -24,6 +24,9 @@ class Header extends Component {
                 <a href="/gallery">Gallery</a>
               </li>
               <li>
+                <a href="/credits">Credits</a>
+              </li>
+              <li>
                 <a href="/twitter">Social Media</a>
               </li>
               <li>
@@ -41,6 +44,9 @@ class Header extends Component {
               </li>
               <li>
                 <a href="/gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="/credits">Credits</a>
               </li>
               <li>
                 <a href="/twitter">Social Media</a>

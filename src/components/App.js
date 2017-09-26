@@ -12,6 +12,7 @@ import Footer from './Footer';
 import Showreel from './Showreel';
 import Gallery from './Gallery';
 import Contact from './Contact';
+import Credits from './Credits';
 import $ from 'jquery';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
 						<Route exact path="/showreel" component={Showreel} />
 						<Route exact path="/gallery" component={Gallery}/>
 						<Route exact path="/contact" component={Contact}/>
+						<Route exact path="/credits" component={Credits}/>
 					</div>
 				</BrowserRouter>
 				<Footer />
