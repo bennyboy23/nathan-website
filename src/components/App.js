@@ -21,7 +21,7 @@ class App extends Component {
 	  };
 	render() {
 		return (
-			<div style={background} className="blue">
+			<div style={background}>
 				<Header />
 				<BrowserRouter>
 					<div className="container">
